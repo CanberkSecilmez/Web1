@@ -1,0 +1,101 @@
+<!-- Your Honest page should go here.  Use the following info in your page:
+
+  Honesty Statement
+
+  I declare that my assignment is wholly my own work in accordance with Seneca Academic
+  Policy. No part of this assignment has been copied manually or electronically from any
+  other source (including web sites) except for the information supplied by the WEB222
+  instructors and / or made available in this assignment for my use.
+
+  I also declare that no part of this assignment has been distributed to other students.
+
+  Credits
+
+  Include proper links, citations, references, etc to any material you have used in the site.
+
+  Name: Your Name Here...
+
+  Dated: Date Here...
+
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Canberk" content="Canberk Secilmez" />
+    <meta name="name" content="why the next stop should be Antalya?" />
+    <title>Best Travel Destination</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: #f8f8f8;
+        padding-left: 400px;
+        width: 700px;
+      }
+    </style>
+  </head>
+  <body style="padding-top: 60px">
+    <header style="padding-bottom: 30px">
+      <h1>Honesty Statement</h1>
+    </header>
+
+    <audio id="bg-audio" src="free.mp3" loop>
+      Your browser does not support the audio element.
+    </audio>
+
+    <nav style="padding-bottom: 50px">
+      <b><a href="index.html">Home</a></b
+      >&nbsp;&nbsp; <b><a href="about.html">About</a></b
+      >&nbsp;&nbsp; <b><a href="honesty.html">Honesty</a></b
+      >&nbsp;&nbsp;
+    </nav>
+
+    <button style="background-color: rgb(248, 255, 255); font-weight: bold" id="play-button">
+      Play Background Audio
+    </button>
+
+    <article>
+      <p>
+        I am Canberk Secilmez a college student who is currently studying CPP program on Seneca and
+        this is my assingment 3 for my web class
+      </p>
+      <p>
+        I declare that my assignment is wholly my own work in accordance with Seneca Academic
+        Policy. No part of this assignment has been copied manually or electronically from any other
+        source (including web sites) except for the information supplied by the WEB222 instructors
+        and / or made available in this assignment for my use.
+      </p>
+      <p>I also declare that no part of this assignment has been distributed to other students.</p>
+      <header>
+        <h2>REFERENCES</h2>
+      </header>
+      <p>"Antalya Harbour" by zolakoma is licensed under CC BY 2.0.</p>
+      <p>"Antalya - Miracle Resort" by bortescristian is licensed under CC BY 2.0.</p>
+      <p>"Kemer beach, Antalya" by Crymaker is licensed under CC BY-SA 2.5.</p>
+      <p>"Antalya Harbour" by zolakoma is licensed under CC BY 2.0.</p>
+      <p>https://antalya.ktb.gov.tr/TR-66213/genel-bilgiler.html</p>
+      <p>https://gezimanya.com/turkiye/antalya-hakkinda-bilinmesi-gerekenler</p>
+      <p>
+        https://antalya.edu.tr/tr/fakulte-ve-enstituler/turizm-fakultesi/icerik/hakkimizda-1/neden-antalya
+      </p>
+      <p>Name: Canberk Secilmez</p>
+      <p>Dated: 15.02.2024</p>
+    </article>
+
+    <footer style="padding-top: 60px">
+      <small><i>Copyright © 2024 Canberk Secilmez.</i></small>
+      <br />
+      <a href="mailto:csecilmez@myseneca.ca">Canberk Secilmez</a>
+    </footer>
+
+    <script>
+      const audio = document.getElementById('bg-audio');
+      const playButton = document.getElementById('play-button');
+
+      playButton.addEventListener('click', () => {
+        audio.play();
+        playButton.style.display = 'none';
+      });
+    </script>
+  </body>
+</html>
